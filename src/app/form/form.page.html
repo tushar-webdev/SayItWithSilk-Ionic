@@ -1,0 +1,44 @@
+<div class="page2">
+  <div class="bg">
+    <div class="row">
+
+
+      <!-- Logo -->
+      <div class="col-12 text-center logo-col-12">
+        <img class="logo mt-5" src="../../assets/page2/logo.png" alt="">
+      </div>
+
+
+      <!-- Full Name -->
+      <div class="col-12 text-center mt-4">
+        <p class="fullName">Full Name</p>
+      </div>
+      <div class="col-12 text-center mb-2">
+        <input type="text" class="fullNameInput text-center" autocomplete="off" id="name" [(ngModel)]="UserName">
+      </div>
+
+      <!-- Email ID -->
+      <div class="col-12 text-center ">
+        <p class="Email-Id">Email Id</p>
+      </div>
+      <div class="col-12 text-center mb-2">
+        <input type="email" class="fullEmailInput text-center" autocomplete="off" id="emailId" [(ngModel)]="UserEmail">
+      </div>
+
+      <!-- Contact Number -->
+      <div class="col-12 text-center ">
+        <p class="Contact">Conatct Number</p>
+      </div>
+      <div class="col-12 text-center mb-2">
+        <input type="number" pattern="[0-9]{1}[0-9]{9}" onkeypress="return this.value.length < 10;" class="fullContactInput text-center" autocomplete="off" id="contact" [(ngModel)]="UserMobileNumber">
+      </div>
+
+      <!-- Submit Button -->
+      <div class="col-12 text-center mt-4">
+        <img src="../../assets/page2/submit.png" alt="Submit" class="submitData" (click)=getData()>
+      </div>
+
+    </div>
+
+  </div>
+</div>

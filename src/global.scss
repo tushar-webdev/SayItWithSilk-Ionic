@@ -24,3 +24,25 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+@import "libs/css/animate.css";
+@import "libs/css/bootstrap.min.css";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: radial-gradient(rgb(149, 45, 214), rgb(118, 0, 197));
+}
+
+@font-face {
+  font-family: Co-Regular;
+  src: url(./assets/fonts/CornerOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Co-Bold;
+  src: url(./assets/fonts/CornerOne-Bold-Regular.ttf);
+}

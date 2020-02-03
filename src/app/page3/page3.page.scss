@@ -1,0 +1,45 @@
+.page3{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(rgb(149, 45, 214), rgb(118, 0, 197));
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    width: 30%;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80%;
+}
+
+.btn-container img[id^="day"]{
+    width: 40%;
+    height: auto;
+    max-width: 40%;
+    max-height: auto;
+}
+.btn-container img:nth-child(7){
+    width: 85%;
+    height: auto;
+    max-width: 85%;
+    max-height: auto;
+}
+.small{
+    transform: scale(0.9);
+    transition: 0.5s;
+}

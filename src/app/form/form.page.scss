@@ -1,0 +1,39 @@
+.page2{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+    background-color: #2F0252;
+    align-items: center;
+    justify-content: center;
+    // border-bottom: 6vh solid #2F0252;
+}
+.bg{
+    height: 95%;
+    width: 85%;
+    background: radial-gradient(rgb(149, 45, 214), rgb(118, 0, 197));
+    border-radius: 2vh;
+    
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+}
+.logo{
+    width: 50%;
+}
+.fullName,.Email-Id,.Contact{
+    color: white;
+    font-family: Co-Regular;
+}
+input{
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: white;
+    font-family: Co-Regular;
+}
+.submitData{
+    width: 55%;
+}
